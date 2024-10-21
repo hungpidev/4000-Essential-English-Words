@@ -1,0 +1,75 @@
+ .mute {
+   width: 40px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   border-radius: 50%;
+   cursor: pointer;
+   transition: all 0.25s linear;
+   margin-top: auto;
+ }
+
+ .volume-controls {
+   width: 40px;
+   height: 40px;
+   position: absolute;
+   left: 10px;
+   bottom: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #1f1f1f;
+   box-shadow: 0px 0px 6px 0px rgba(255, 255, 255, 0.12);
+   border-radius: 20px;
+   transition: all 0.25s linear;
+   overflow: hidden;
+
+   .volume-bar-container {
+     position: absolute;
+     bottom: 50px;
+     width: 7px;
+     height: 0;
+     transition: all 0.25s linear;
+     opacity: 0;
+     visibility: hidden;
+   }
+
+   .volume-bar {
+     position: relative;
+     width: 100%;
+     height: 100%;
+     border-radius: 5px;
+     cursor: pointer;
+   }
+
+   .slider-bar {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+     background-color: #444;
+     border-radius: inherit;
+   }
+
+   .slider-fill {
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     height: 50%;
+     background-color: #01b74d;
+   }
+
+   .slider-thumb {
+     position: absolute;
+     bottom: 50%;
+     left: 50%;
+     transform: translate(-50%, 50%);
+     width: 16px;
+     height: 16px;
+     background-color: #fff;
+     border-radius: 50%;
+     cursor: pointer;
+   }
+ }

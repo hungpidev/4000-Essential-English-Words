@@ -1,0 +1,27 @@
+@import "variable";
+@import "reset";
+@import "mixin";
+@import "musicplayer";
+@import "playlist";
+@import "seekbar";
+@import "volume";
+@import "scrollbar";
+@import "spinner";
+@import "wave-effect";
+@import "search";
+@import "contextmenu";
+@import "responsive";
+
+
+body {
+  font-family: "Mulish", sans-serif;
+  background-color: #141414;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 5px 0;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
