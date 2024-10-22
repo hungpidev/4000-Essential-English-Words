@@ -1,16 +1,16 @@
-@import "variable";
-@import "reset";
-@import "mixin";
-@import "musicplayer";
-@import "playlist";
-@import "seekbar";
-@import "volume";
-@import "scrollbar";
-@import "spinner";
-@import "wave-effect";
-@import "search";
-@import "contextmenu";
-@import "responsive";
+@use "variable";
+@use "reset";
+@use "mixin";
+@use "musicplayer";
+@use "playlist";
+@use "seekbar";
+@use "volume";
+@use "scrollbar";
+@use "spinner";
+@use "wave-effect";
+@use "search";
+@use "contextmenu";
+@use "responsive";
 
 
 body {

@@ -1,3 +1,5 @@
+@use "variable";
+
 html {
   box-sizing: border-box;
 }
@@ -19,7 +21,7 @@ select,
 button {
   outline: none;
   font-weight: normal;
-  font-family: $font;
+  font-family: variable.$font;
 }
 
 textarea {
