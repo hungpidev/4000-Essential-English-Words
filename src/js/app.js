@@ -375,6 +375,7 @@ class MusicPlayer {
       playPromise.then((_) => {}).catch((_) => {});
     }
     this.isPlaying = true;
+    this.audio.playbackRate = 0.7;
     playBtn.innerHTML = pauseIcon;
     volumeControls.style.opacity = 1;
     volumeControls.style.visibility = "visible";
