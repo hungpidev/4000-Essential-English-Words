@@ -31,4 +31,12 @@ export const musics = [
     duration: "02:03",
     id: 4,
   },
+  {
+    name: "How To Order Coffee In English",
+    singer: "Ariannita la Gringa",
+    path: "../../../music/How To Order Coffee In English.mp3",
+    image: "../../../images/Ariannita la Gringa.jpg",
+    duration: "09:28",
+    id: 5,
+  },
 ];
