@@ -39,4 +39,12 @@ export const musics = [
     duration: "09:28",
     id: 5,
   },
+  {
+    name: "How to order fast food in English 🍔🍟",
+    singer: "Ariannita la Gringa",
+    path: "../../../music/How to order fast food in English.m4a",
+    image: "../../../images/Ariannita la Gringa.jpg",
+    duration: "13:31",
+    id: 6,
+  },
 ];
