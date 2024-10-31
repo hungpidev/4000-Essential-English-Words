@@ -47,4 +47,12 @@ export const musics = [
     duration: "13:31",
     id: 6,
   },
+  {
+    name: "How To Order Food In English At A Restaurant Drive-Thru",
+    singer: "Bob the Canadian",
+    path: "../../../music/How To Order Food In English At A Restaurant Drive-Thru.mp3",
+    image: "../../../images/Bob the Canadian.jpg",
+    duration: "10:37",
+    id: 7,
+  },
 ];
