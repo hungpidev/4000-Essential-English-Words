@@ -63,4 +63,12 @@ export const musics = [
     duration: "07:31",
     id: 8,
   },
+  {
+    name: "Let's Learn English Around the House and Home",
+    singer: "Bob the Canadian",
+    path: "../../../music/Let's Learn English Around the House and Home.mp3",
+    image: "../../../images/Bob the Canadian.jpg",
+    duration: "10:11",
+    id: 9,
+  },
 ];
