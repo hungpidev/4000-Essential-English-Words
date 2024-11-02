@@ -55,4 +55,12 @@ export const musics = [
     duration: "10:37",
     id: 7,
   },
+  {
+    name: "How to Order Food at a Restaurant in English",
+    singer: "Bob the Canadian",
+    path: "../../../music/How to Order Food at a Restaurant in English.mp3",
+    image: "../../../images/Bob the Canadian.jpg",
+    duration: "07:31",
+    id: 8,
+  },
 ];
