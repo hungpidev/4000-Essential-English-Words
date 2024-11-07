@@ -71,4 +71,12 @@ export const musics = [
     duration: "10:11",
     id: 9,
   },
+  {
+    name: "English Lesson At The Airport",
+    singer: "Ariannita la Gringa",
+    path: "../../../music/English Lesson At The Airport.mp3",
+    image: "../../../images/Ariannita la Gringa.jpg",
+    duration: "13:49",
+    id: 10,
+  },
 ];
